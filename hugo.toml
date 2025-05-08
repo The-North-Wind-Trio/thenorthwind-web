@@ -14,7 +14,7 @@ facebook = "https://www.facebook.com/michelbalattithenorthernbreeze"
 
 [module]
 [[module.imports]]
-    path = 'graysx'
+    path = 'github.com/The-North-Wind-Trio/graysx-hugo'
 
 theme = 'graysx'
 
