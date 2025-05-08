@@ -1,0 +1,46 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The North Wind'
+
+[params]
+# Info
+email = "thenorthwindtrio@gmail.com"
+phone = "+39 3402924758"
+
+# Socials
+
+instagram = "https://www.instagram.com/thenorthwindtrio/"
+facebook = "https://www.facebook.com/michelbalattithenorthernbreeze"
+
+[module]
+[[module.imports]]
+    path = 'graysx'
+
+theme = 'graysx'
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "#projects"
+  weight = 1
+
+  [[menu.main]]
+  name = "Videos"
+  URL = "#videos"
+  weight = 2
+
+  [[menu.main]]
+  name = "Gigs"
+  URL = "#gigs"
+  weight = 3
+
+  [[menu.main]]
+  name = "Listen"
+  URL = "#listen"
+  weight = 4
+
+  [[menu.main]]
+  name = "Contact us"
+  URL = "#contacts"
+  weight = 5

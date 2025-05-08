@@ -1,0 +1,50 @@
+# Main Title
+main:
+  header:
+    button:
+      text: "Discover" # Button Text
+      url: "#projects" # Button URL
+    image: assets/img/home.png
+
+# About
+about:
+  title: ""
+  desc: We heard it first, coming in off the wind. Not a word, not a note; maybe, a notion all the way from a direction where air and light walk with joined emotion. Where land, sky and water sing in full calling. We endeavour to venture there.
+  button:
+    enable: false
+    text: "Button"
+    url: "#"
+
+projects:
+  card1:
+    title: "About"
+    text: "The North Wind is the meeting of three artists from very different backgrounds: Italian flutist Michel Balatti, Irish fiddler Tola Custy, and Scottish singer and multi-instrumentalist Tom Stearn. This meeting point sees tradition merge with personal exploration, striking a refined balance between memory, emotion, and modernity. At the heart of the project lies a deep dedication to traditional music, particularly Irish music, approached with both respect and expressive freedom. The three musicians share an approach that places melody and emotion at the centre, carving sonic paths that capture the lyrical beauty and evocative power of the repertoire. The North Wind presents a selection of traditional tunes, songs, and original compositions from Ireland, Scotland, England, Brittany, Northern Italy, Scandinavia, and the United States. The trio works with great attention to arrangement, crafting something essential, yet profound and rich in its soundscapes. Their music sways between intimate, whispered melodies, and intense, soaring peaks, creating a dynamic flow that carries the listener on a journey. Tradition, here, is not seen as something to be preserved unchanged, but as a living language open to transformation. It is precisely in the dialogue between reverence and interpretative freedom that the trio forges its own musical identity."
+    img: "assets/img/trio.jpg"
+  
+videos:
+  title: "Videos"
+  main: fbukHyjp8n8
+  # thumbs:
+  #   - id: Z-MFeBV9VS4
+  #   - id: 6nkf5T3nwTc
+  #   - id: 6nkf5T3nwTc
+
+gigs:
+  title: "Upcoming Gigs"
+  items:
+    - title: Festival Molto Figo
+      date: 1/5/2025
+      address: Via Fasulla, 11 - 10100 Torino
+      url_info: "https://duilleoga.it"
+      url_tickets: "https://thecrackingreeds.band"
+    - title: Festival Poco Figo
+      date: 4/10/2025
+      address: Via Fasulla, 11 - 10100 Torino
+      url_info: "https://duilleoga.it"
+    - title: Festival Per Nulla Figo
+      date: 7/5/2025
+      address: Via Fasulla, 11 - 10100 Torino
+      url_tickets: "https://thecrackingreeds.band"
+
+listen:
+  spotify: https://open.spotify.com/embed/artist/3s3zx3hcoTanbw0xcnmxXx
