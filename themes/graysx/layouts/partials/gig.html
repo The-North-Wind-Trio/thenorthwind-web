@@ -1,0 +1,87 @@
+<style>
+    .event {
+      background: #fff;
+      margin-top: 1.2rem;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease;
+    }
+
+    .location {
+      font-size: large;
+      padding-left: 0.8rem;
+      letter-spacing: -1px;
+    }
+
+    .title {
+      font-weight: bolder;
+      font-size: x-large;
+      padding-left: 0.8rem;
+      font-family: "Special Elite", sans-serif;
+    }
+
+    .links {
+      margin-top: 0.6rem;
+      padding-left: 0.8rem;
+    }
+
+    .links a {
+      font-size: large;
+      display: inline-block;
+      margin-right: 15px;
+      padding: 5px 10px;
+      background-color: #4d6ba9;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+      font-family: "League Gothic", sans-serif;
+      text-transform: uppercase;
+    }
+
+    .links a:hover {
+      background-color: #9aaebe;
+    }
+
+    .links span {
+      color: #fff;
+    }
+
+    .event .date {
+      font-size: xx-large;
+      color: #4d6ba9;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      font-family: "League Gothic", sans-serif;
+      text-align: right;
+    }
+
+    @media (max-width: 600px) {
+      .event {
+        padding: 15px 0;
+      }
+
+      .title {
+        font-size: 1.25rem;
+      }
+
+      .location {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+
+<div class="event">
+    <div class="date">{{ .date }}</div>
+    <div class="title">{{ .title }}</div>
+    <div class="location">{{ .address }}</div>
+    <div class="links">
+    {{ if .url_info }}
+        <a href={{ .url_info }}>Info</a>
+    {{ end }}
+    {{ if .url_tickets }}
+        <a href={{ .url_tickets }}>Tickets</a>
+    {{ end }}
+    </div>
+</div>

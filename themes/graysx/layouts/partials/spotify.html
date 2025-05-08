@@ -1,0 +1,41 @@
+<section class="spotify-section">
+    <div class="spotify-player">
+      <iframe 
+        src={{ . }}
+        width="100%" 
+        height="380" 
+        frameborder="0" 
+        allowtransparency="true" 
+        allow="encrypted-media">
+      </iframe>
+    </div>
+  </section>
+  
+  <style>
+    .spotify-section {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    
+    .spotify-player {
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    
+    .spotify-player iframe {
+      border: none;
+      border-radius: 12px;
+    }
+  
+    @media (max-width: 600px) {
+      .spotify-title {
+        font-size: 1.5rem;
+      }
+  
+      .spotify-player iframe {
+        height: 320px;
+      }
+    }
+  </style>
+  
