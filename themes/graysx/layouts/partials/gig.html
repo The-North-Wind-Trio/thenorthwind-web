@@ -14,6 +14,12 @@
       letter-spacing: -1px;
     }
 
+    .hour {
+      font-size: larger;
+      padding-left: 0.8rem;
+      letter-spacing: -1px;
+    }
+
     .title {
       font-weight: bolder;
       font-size: x-large;
@@ -76,12 +82,13 @@
     <div class="date">{{ .date }}</div>
     <div class="title">{{ .title }}</div>
     <div class="location">{{ .address }}</div>
+    {{ if .hour }}<div class="hour">{{ .hour }}</div>{{ end }}
     <div class="links">
     {{ if .url_info }}
-        <a href={{ .url_info }}>Info</a>
+        <a href={{ .url_info }} target="_blank">Info</a>
     {{ end }}
     {{ if .url_tickets }}
-        <a href={{ .url_tickets }}>Tickets</a>
+        <a href={{ .url_tickets }} target="_blank">Tickets</a>
     {{ end }}
     </div>
 </div>

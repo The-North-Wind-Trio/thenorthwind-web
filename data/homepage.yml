@@ -32,19 +32,27 @@ videos:
 gigs:
   title: "Upcoming Gigs"
   items:
-    - title: Festival Molto Figo
-      date: 1/5/2025
-      address: Via Fasulla, 11 - 10100 Torino
-      url_info: "https://duilleoga.it"
-      url_tickets: "https://thecrackingreeds.band"
-    - title: Festival Poco Figo
-      date: 4/10/2025
-      address: Via Fasulla, 11 - 10100 Torino
-      url_info: "https://duilleoga.it"
-    - title: Festival Per Nulla Figo
-      date: 7/5/2025
-      address: Via Fasulla, 11 - 10100 Torino
-      url_tickets: "https://thecrackingreeds.band"
+    - title: Borgate dal Vivo
+      date: 5/8/2025
+      address: Trana (TO) - Piazza Italia
+      hour: 21:30
+      url_info: "https://www.borgatedalvivo.it/the-north-wind"
+      # url_tickets: ""
+    - title: Combin en Musique
+      date: 6/8/2025
+      address: Roisan (AO) - loc. Massinod
+      hour: 21:00
+      url_info: "https://combinenmusique.com/"
+    - title: Levanto Music Festival - Amfiteatrof
+      date: 7/8/2025
+      address: Levanto (SP) - Loggia Medievale di Piazza del Popolo
+      hour: 21:00
+      url_info: "https://levantomusicfestival.it/"
+    - title: Serate Musicali
+      date: 8/8/2025
+      address: Morbegno (SO) - Abbazia di San Pietro in Vallate
+      hour: 21:00
+      url_info: "https://www.seratemusicali.net"
 
 listen:
   spotify: https://open.spotify.com/embed/album/59Sm6ewgp0DB1Qp4MYD5je
