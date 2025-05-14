@@ -88,9 +88,10 @@
         {{ end }}
         <!-- Videos-->
         {{ with site.Data.homepage.videos }}
-        <section class="bg-dark text-center video-section" id="videos">
-            <h1 class="text-primary mb-5">{{ .title }}</h1>
-            <div class="video-gallery">{{ partial "video" . }}</div>
+        <section class="bg-dark video-section" id="videos">
+            <h1 class="text-primary text-center mb-5">{{ .title }}</h1>
+            <!-- <div class="video-gallery">{{ partial "video-gallery" . }}</div> -->
+            <div class="video-gallery">{{ range .items }} {{ partial "video" . }} {{ end }}</div>
         </section>
         {{ end }}
         <!-- Gigs-->

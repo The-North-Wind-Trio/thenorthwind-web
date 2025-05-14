@@ -24,9 +24,13 @@ projects:
   
 videos:
   title: "Videos"
-  mains: fbukHyjp8n8
-  thumbs:
+  items: 
+    - id: fbukHyjp8n8
     - id: f7Gh_IqEURk
+
+  # main: fbukHyjp8n8
+  # thumbs:
+  #   - id: f7Gh_IqEURk
 
 gigs:
   title: "Upcoming Gigs"
