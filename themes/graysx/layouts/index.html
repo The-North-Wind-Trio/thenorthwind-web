@@ -10,12 +10,14 @@
                     <div class="text-center">
                         {{ with site.Data.homepage.main }}
                         <h1 class="mx-auto my-0 text-uppercase">{{ .header.title }}</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description }}</h2>
                         {{ if .header.image }}<div class="mx-auto mt-2 mb-5"><img class="img-fluid" src="{{ .header.image }}" alt="..." /></div>{{ end }}
                         <a class="btn btn-primary" href="{{ .header.button.url }}">{{ .header.button.text }}</a>
                         {{ end }}
                     </div>
                 </div>
+                {{ with site.Data.homepage.main }}
+                <div class="masthead-description text-center text-white-50 mb-5">{{ .header.description }}</div>
+                {{ end }}
             </div>
         </header>
         <!-- About-->

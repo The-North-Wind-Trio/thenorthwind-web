@@ -1,19 +1,20 @@
 # Main Title
 main:
   header:
+    description: We heard it first, coming in off the wind. Not a word, not a note; maybe, a notion all the way from a direction where air and light walk with joined emotion. Where land, sky and water sing in full calling. We endeavour to venture there.
     button:
       text: "Discover" # Button Text
       url: "#projects" # Button URL
     image: assets/img/home.png
 
 # About
-about:
-  title: ""
-  desc: We heard it first, coming in off the wind. Not a word, not a note; maybe, a notion all the way from a direction where air and light walk with joined emotion. Where land, sky and water sing in full calling. We endeavour to venture there.
-  button:
-    enable: false
-    text: "Button"
-    url: "#"
+# about:
+#   title: ""
+#   desc: We heard it first, coming in off the wind. Not a word, not a note; maybe, a notion all the way from a direction where air and light walk with joined emotion. Where land, sky and water sing in full calling. We endeavour to venture there.
+#   button:
+#     enable: false
+#     text: "Button"
+#     url: "#"
 
 projects:
   card1:
@@ -23,11 +24,9 @@ projects:
   
 videos:
   title: "Videos"
-  main: fbukHyjp8n8
-  # thumbs:
-  #   - id: Z-MFeBV9VS4
-  #   - id: 6nkf5T3nwTc
-  #   - id: 6nkf5T3nwTc
+  mains: fbukHyjp8n8
+  thumbs:
+    - id: f7Gh_IqEURk
 
 gigs:
   title: "Upcoming Gigs"

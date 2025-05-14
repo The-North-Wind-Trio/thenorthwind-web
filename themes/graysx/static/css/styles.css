@@ -11601,6 +11601,16 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
+
+.masthead-description {
+  position: absolute;
+  bottom: 0px;
+  font-family: "Special Elite", sans-serif;
+  max-width: 20rem;
+  font-size: 0.75rem;
+  text-justify: auto;
+}
+
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
@@ -11620,6 +11630,13 @@ body {
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
+  }
+  .masthead-description {
+    position: absolute;
+    bottom: 0px;
+    font-family: "Special Elite", sans-serif;
+    max-width: 30rem;
+    font-size: 1rem;
   }
 }
 
