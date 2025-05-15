@@ -48,7 +48,7 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ .card1.img }}" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="text-lg-left">
-                            <h1 class="text-primary text-center mb-4">{{ .card1.title }}</h1>
+                            <h2 class="text-primary text-center mb-4">{{ .card1.title }}</h2>
                             <p class="featured-text text-black-50 mb-0">{{ .card1.text }}</p>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
         <!-- Videos-->
         {{ with site.Data.homepage.videos }}
         <section class="bg-dark video-section" id="videos">
-            <h1 class="text-primary text-center mb-5">{{ .title }}</h1>
+            <h2 class="text-primary text-center mb-5">{{ .title }}</h2>
             <!-- <div class="video-gallery">{{ partial "video-gallery" . }}</div> -->
             <div class="video-gallery">{{ range .items }} {{ partial "video" . }} {{ end }}</div>
         </section>
@@ -97,7 +97,7 @@
         <!-- Gigs-->
         {{ with site.Data.homepage.gigs }}
         <section class="bg-dark gigs-section" id="gigs">
-            <h1 class="text-primary mb-5 text-center">{{ .title }}</h1>
+            <h2 class="text-primary mb-5 text-center">{{ .title }}</h2>
             {{ if .items}}
             <div class="event-list">{{ range .items }} {{ partial "gig" . }} {{ end }}</div>
             {{ else }}
@@ -108,7 +108,7 @@
         <!-- Spotify-->
         <section class="bg-dark listen-section" id="listen">
         {{ with site.Data.homepage.listen }}
-            <h1 class="text-primary mb-5 text-center">Listen</h1>
+            <h2 class="text-primary mb-5 text-center">Listen</h2>
             {{ if .spotify }}
                 {{ partial "spotify" .spotify}}
             {{ end }}
@@ -142,7 +142,7 @@
         <!-- Contact-->
         <section class="contact-section bg-dark" id="contacts">
             <div class="container px-4 px-lg-5">
-                <h1 class="text-center text-primary mb-5">Contact us</h1>
+                <h2 class="text-center text-primary mb-5">Contact us</h2>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-12">
                         <div class="text-center">
