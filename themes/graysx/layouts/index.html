@@ -105,6 +105,12 @@
             {{ end }}
         </section>
         {{ end }}
+        {{ with site.Data.homepage.buy }}
+        <section class="bg-dark gigs-section" id="buy">
+            <h2 class="text-primary text-center">{{ .text }}</h2>
+            <div class="text-primary mb-5 text-center"><h3><a class="" href={{ .url }} target="_blank">here</a></h3></div>
+        </section>
+        {{ end }}
         <!-- Spotify-->
         <section class="bg-dark listen-section" id="listen">
         {{ with site.Data.homepage.listen }}

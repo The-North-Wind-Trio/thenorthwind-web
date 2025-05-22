@@ -57,5 +57,9 @@ gigs:
       hour: 21:00
       url_info: "https://www.seratemusicali.net"
 
+buy:
+  text: Buy your album copy
+  url: https://thenorthwindtrio.bandcamp.com/album/the-north-wind
+
 listen:
   spotify: https://open.spotify.com/embed/album/59Sm6ewgp0DB1Qp4MYD5je
