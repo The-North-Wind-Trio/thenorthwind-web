@@ -56,6 +56,11 @@ gigs:
       address: Morbegno (SO) - Abbazia di San Pietro in Vallate
       hour: 21:00
       url_info: "https://www.seratemusicali.net"
+    - title: Suoni d’Irlanda ad Altare
+      date: 9/8/2025
+      address: Altare (SV) - Chiesa della SS. Annunziata
+      hour: 21:15
+      url_info: "https://www.corellimusica.it/eventi/altare-il-vetro-tra-musica-e-storia-presenta-the-north-wind-irish-music"
 
 buy:
   text: Buy your album copy on
