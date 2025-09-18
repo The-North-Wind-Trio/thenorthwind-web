@@ -41,13 +41,13 @@ gigs:
       hour: 21:00
       url_info: "https://www.artelaghi.it/eventi/"
       # url_tickets: ""
-   - title: Amici della Musica Savigliano
+    - title: Amici della Musica Savigliano
       date: 18/12/2025
       address: Palazzo Taffini - Via Sant'Andrea, 53, 12038 Savigliano CN
       hour: 21:00
       url_info: "https://www.amicimusicasavigliano.org/"
       # url_tickets: ""
-   - title: Folk Club Torino
+    - title: Folk Club Torino
       date: 20/12/2025
       address: Via Ettore Perrone 3 bis Torino, TO
       hour: 21:30
