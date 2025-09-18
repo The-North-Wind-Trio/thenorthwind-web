@@ -35,33 +35,25 @@ videos:
 gigs:
   title: "Upcoming Gigs"
   items:
-    - title: Borgate dal Vivo
-      date: 5/8/2025
-      address: Trana (TO) - Piazza Italia
-      hour: 21:30
-      url_info: "https://www.borgatedalvivo.it/the-north-wind"
+    - title: Artelaghi
+      date: 15/12/2025
+      address: Teatro Valle dei Laghi - Via Antonio Stoppani, 38096 Vallelaghi, TN
+      hour: 21:00
+      url_info: "https://www.artelaghi.it/eventi/"
       # url_tickets: ""
-    - title: Combin en Musique
-      date: 6/8/2025
-      address: Roisan (AO) - loc. Massinod
+   - title: Amici della Musica Savigliano
+      date: 18/12/2025
+      address: Palazzo Taffini - Via Sant'Andrea, 53, 12038 Savigliano CN
       hour: 21:00
-      url_info: "https://combinenmusique.com/"
-    - title: Levanto Music Festival - Amfiteatrof
-      date: 7/8/2025
-      address: Levanto (SP) - Loggia Medievale di Piazza del Popolo
-      hour: 21:00
-      url_info: "https://levantomusicfestival.it/"
-    - title: Serate Musicali
-      date: 8/8/2025
-      address: Morbegno (SO) - Abbazia di San Pietro in Vallate
-      hour: 21:00
-      url_info: "https://www.seratemusicali.net"
-    - title: Suoni d’Irlanda ad Altare
-      date: 9/8/2025
-      address: Altare (SV) - Chiesa della SS. Annunziata
-      hour: 21:15
-      url_info: "https://www.corellimusica.it/eventi/altare-il-vetro-tra-musica-e-storia-presenta-the-north-wind-irish-music"
-
+      url_info: "https://www.amicimusicasavigliano.org/"
+      # url_tickets: ""
+   - title: Folk Club Torino
+      date: 20/12/2025
+      address: Via Ettore Perrone 3 bis Torino, TO
+      hour: 21:30
+      url_info: "https://www.folkclub.it/it/"
+      url_tickets: "https://www.folkclub.it/it/concerti/38/the-north-wind/prenota/"   
+        
 buy:
   text: Buy your album copy on
   url: https://thenorthwindtrio.bandcamp.com/album/the-north-wind
