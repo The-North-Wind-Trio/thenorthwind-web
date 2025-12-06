@@ -41,6 +41,18 @@ gigs:
       hour: 21:00
       url_info: "https://www.artelaghi.it/eventi/"
       # url_tickets: ""
+    - title: Castelletto di Piavenna
+      date: 16/12/2025
+      address: Malles Venosta (BZ)
+      hour: 17:00
+      #url_info: "https://www.artelaghi.it/eventi/"
+      # url_tickets: ""
+    - title: Cinemino ad Astra Arci
+      date: 17/12/2025
+      address: Vico della Cittadella, 6, 16126 Genova GE
+      hour: 21:00
+      url_info: "https://cineminoadastra.it/the-north-wind/"
+      # url_tickets: ""
     - title: Amici della Musica Savigliano
       date: 18/12/2025
       address: Palazzo Taffini - Via Sant'Andrea, 53, 12038 Savigliano CN
